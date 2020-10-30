@@ -1,0 +1,77 @@
+body {
+    --backgroud:      #121212;
+    --text-primary:   #DEDEDE;
+    --text-secondary: #808080;
+    --accent:         #00AB44;
+
+    --elev1: 0.12;
+
+    color: var(--text-primary);
+    background-color: var(--backgroud);
+    font-family: "Roboto", sans-serif;
+    max-width: 768px;
+    margin: auto;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+li {
+    font-size: 11pt;
+}
+
+section {
+    background-color: rgba(255, 255, 255, var(--elev1));
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+section h1 {
+    color: var(--accent);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14pt;
+}
+
+hr {
+    background-color: var(--accent);
+    height: 7px;
+    border-width: 0;
+}
+
+table td, table th {
+    padding: 0;
+}
+
+.main-content {
+    padding: 0 20px 100px;
+}
+
+.title {
+    font-family: proxima-nova, sans-serif;
+    font-size: 30pt;
+}
+
+.subtitle {
+    color: var(--accent);
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.box {
+    padding: 15px;
+}
+
+.experience-title {
+}
+
+.subheader {
+}
+
+.date-range {
+    color: var(--text-secondary);
+    font-size: 10pt;
+    text-align: right;
+    float: right;
+}
